@@ -4,4 +4,4 @@ function hi(){
    const el = document.querySelector('.app');
    el.appendChild(div)
 }
-document.querySelector('button').addEventListener('submit', hi)
+document.querySelector('button').addEventListener('submit', hi())
